@@ -1,5 +1,8 @@
 def warikan(amount, number_of_people):
-    return f"一人あたり: {amount // number_of_people}円, 端数: {amount % number_of_people}円"
+    quotient = amount // number_of_people
+    remainder = amount % number_of_people
+
+    return f"一人あたり: {quotient}円, 端数: {remainder}円"
 
 
 # Table1: 1500円で3人
